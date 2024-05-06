@@ -8,6 +8,7 @@ export function setSelectPlayer() {
   const select = document.createElement("select");
   select.id = "select";
   const selectLabel = document.createElement("label");
+  selectLabel.id = 'selectLabel'
   selectLabel.textContent = "Select Management for Player1";
   selectLabel.setAttribute("for", "select");
 

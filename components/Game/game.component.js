@@ -15,6 +15,7 @@ import { Win } from "./Win/win.component.js";
 import { renderSettingsMenu } from './Settings/renderMenu.component.js';
 import { renderOptionsMenu } from './Settings/renderOptionMenu.component.js';
 
+
 // Create a variable to track the current control method
 let player1ControlMethod = SELECT_MANAGEMENT.KEYBOARD; // Default to keyboard
 let player2ControlMethod = SELECT_MANAGEMENT.KEYBOARD; // Default to keyboard

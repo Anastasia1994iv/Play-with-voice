@@ -37,12 +37,12 @@ const _data = {
         },
         {
             name: 'Select Management for Player1',
-            value: SELECT_MANAGEMENT,
+            value: ['keyboard', 'voice'],
         },
         {
             name: 'Sound',
             value: true,
-            render: (value) => `Sound: ${value ? 'On' : 'Off'}`
+            render: (value) => `Sound ${value ? 'On' : 'Off'}`
         },
     ],
       
